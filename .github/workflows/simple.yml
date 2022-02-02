@@ -1,10 +1,8 @@
 name: Shell Commands
 
-
 on: [push]
 
-
-jcbs:
+jobs:
   run-shell-command: 
   runs-on: ubuntu-latest
   steps: 
