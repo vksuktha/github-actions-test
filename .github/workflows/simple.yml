@@ -15,5 +15,5 @@ jobs:
       - name: python command
         run: |
           import platform
-          printf(platfor.processor())
+          printf(platform.processor())
         shell: python
